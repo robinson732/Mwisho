@@ -1,8 +1,8 @@
 header {
   width: 100%;
   text-align: center;
-  border-bottom: 2px solid #000; /* You can change the color and thickness */
-  padding: 20px 0; /* Adds some space around the content */
+  border-bottom: 2px solid #000;
+  padding: 20px 0;
 }
 
 nav {
@@ -10,11 +10,16 @@ nav {
 }
 
 nav a {
-  margin: 0 15px; /* Adds space between the links */
+  margin: 0 15px;
   text-decoration: none;
-  color: #000; /* You can change this color */
+  color: #000;
 }
 
 nav a:hover {
-  color: #007bff; /* Changes color when hovered */
+  color: #007bff;
+}
+h1 {
+  text-align: center;
+  padding: 2px;
+  border-bottom: solid#000;
 }
