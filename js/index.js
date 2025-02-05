@@ -1,55 +1,50 @@
 const quotes = [
-    {
-        text : "If you think you do not understand then you are lacking",
-        author: "King Von"
-    },
-    {
-        text : "The river between is not the river underneath",
-        author: "Robinson Chege"
-    },
-    {
-        text : "The man who forgets that his wife cannot take a joke forgets that his wife took him",
-        author : "Oscar Wilde"
-    },
-    {
-        text: "If you change your mind you can change your life",
-        author :"Walt Whitman"
-    },
-    {
-        text: "If you change the way you look at thingsd the things you look at change",
-        author : "Wayne Dyer"
-    },
-    {
-        text : "Try not to become a man of success rather be a man of value",
-        author : "Albert Einstein"
-    },
-    {
-        text : "It is never too late to be what you might have been",
-        author : "George Elliot"
-    },
-    {
-        text : "The biggest adventure you can ever take is to live the life of your dreams",
-        author : "Oprah Winfrey"
-    }
-    {
-        text : "We only live once",
-        author : "Gabriel Mochire"
-    },
-    {
-        text : "Nani alisema haiwezekani",
-        author : "Jonathan Njoroge"
-    },
-    {
-        text : "The only thing we have to fear is fear itself",
-        author : "Franklin Roosevelt"
-    },
-    {
-        text : "Perseverance goes a long way",
-        author : "Winston Churchill"
-    },
-    {
-        text : "Dont let your circumstances stop you",
-        author : "Mark Caine"
-    },
+  {
+    text: "The only way to do great work is to love what you do.",
+    author: "Steve Jobs",
+  },
+  {
+    text: "Unaeza save mita udedi",
+    author: "Robinson Chege",
+  },
+  {
+    text: "Kwani ni kesho.",
+    author: "Burukulyn Boys",
+  },
+  {
+    text: "Life is 10% what happens to us and 90% how we react to it.",
+    author: "Charles R. Swindoll",
+  },
+  {
+    text: "We only live once",
+    author: "Gabriel Mochire",
+  },
+  {
+    text: "It does not matter how slowly you go as long as you do not stop.",
+    author: "Confucius",
+  },
+  {
+    text: "You miss 100% of the shots you don't take.",
+    author: "Wayne Gretzky",
+  },
+  {
+    text: "The only limit to our realization of tomorrow is our doubts of today.",
+    author: "Franklin D. Roosevelt",
+  },
+  {
+    text: "You never know how strong you are until being strong is your only choice",
+    author: "Lucy Maingi",
+  },
+  {
+    text: "Our greatest desire is not in falling but in raising up whenever we fall",
+    author: "Lucy Maingi",
+  },
+];
 
-]
+function generateQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  const randomQuote = quotes[randomIndex];
+
+  document.getElementById("quote").textContent = `"${randomQuote.text}"`;
+  document.getElementById("author").textContent = `- ${randomQuote.author}`;
+}
