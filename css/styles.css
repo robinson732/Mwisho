@@ -50,3 +50,9 @@ header {
   color: #333;
   text-transform: uppercase;
 }
+.Brief {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
