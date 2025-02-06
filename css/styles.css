@@ -89,3 +89,10 @@ body {
   color: #333;
   padding: 20px;
 }
+header {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
